@@ -1,0 +1,109 @@
+/*
+  Victor Lozano Alonso. ID: 130720204 - August 3, 2021
+  I declare that the Assignment 5 is wholly my own work in accordance with Seneca Academic Policy.
+  No part of this Assignment has been copied manually or electronically from any other source except 
+  for the information supplied by the WEB222 instructors and / or made available in 
+  this Assignment for my use.
+  I also declare that no part of this Quiz has been distributed to other students.
+*/
+/* Header */
+#hero {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#hero > img {
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
+}
+
+.quote {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Wildlife Observations Map */
+#map-container {
+  height: 450px;
+  width: 100%;
+}
+
+.marker-text {
+  text-align: center;
+}
+
+/* Wildlife Observations Table */
+.buttons {
+  text-align: center;
+  margin: 2em;
+}
+.buttons > button:hover {
+  background-color: lightblue;
+}
+#legend {
+  display: flex;
+  justify-content: space-around;
+}
+#legend span {
+  padding: 0 5px;
+}
+#observation-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 515px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 25px;
+}
+.card-img {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 375px;
+  width: 375px;
+}
+.card-body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 15px;
+}
+.card-body h4 {
+  font-size: 0.8rem;
+  margin-top: 0px;
+}
+.card-body a,
+.card-body a {
+  color: #000000;
+}
+.card-body h3.a:hover,
+.card-body h4.a:hover {
+  text-decoration: underline;
+}
+.card-icons {
+  text-align: right;
+  padding: 0 15px;
+}
+.card-icons i {
+  font-size: 1.2rem;
+  margin: 5px;
+}
+time {
+  background: inherit;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+}
